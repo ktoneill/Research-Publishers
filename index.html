@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="main.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Research Publishers LLC</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#OurStory">Our Story So Far</a></li>
+            <li><a href="#PublishingProcess">The Publishing Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#Artists">Information for Artists</a></li>
+            <li><a href="#Authors">Information for Authors</a></li>
+            <li><a href="#Researchers">Information for Researchers</a></li>
+            <li><a href="#Publishers">Information for Publishers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#withoutatout"><cite>Without a Tout</cite></a></li>
+            <li><a href="#researchandinformationservices"><cite>Research and information Services</cite></a></li>
+
+            <li><a href="#gettingstartedwithconjointanalysis"><cite>Getting Started with Conjoint Analysis</cite></a></li>
+            <li><a href="#qualitativeresearchonline"><cite>Qualitative Research Online</cite></a></li>
+            <li><a href="#marketingresearchandinformationservices"><cite>Marketing Research and Information Services</cite></a></li>
+            <li><a href="#dataandtextprocessing"><cite>Data and Text Processing for Business Intelligence</cite></a></li><li role="separator" class="divider"></li>
+            <li><a href="#">Order Books</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#CaseStudies">Case Studies</a></li>
+            <li><a href="#researchservices">Research Services</a></li>
+            <li><a href="#researchreports">Research Reports</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#order">Order Case Studies</a></li>
+
+          </ul>
+        </li>
+         <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <div class="container-fluid" id="intro-content">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div id="RPhome" class="item active">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div id="RPlogo">
+                                        <img src='http://i.imgur.com/bZQID3G.png' />
+                                        <h1 id="RPlogo">
+                                            <div id="logo-r">
+                                                R</div>
+                                            <div id="logo-p">
+                                                P</div>
+                                        </h1>
+                                        <h2>
+                                            Research</br>Publishers</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <h3 style="width: 75%;">
+                                        Getting information from the the people who <b>have</b> it</h3>
+                                    <h3 style="padding-right: 30%;" class="pull-right">
+                                        to the people who <b>need</b> it</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="WATjumbo" class="jumbotron">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h1>
+                                        Without A Tout</h1>
+                                    <h2>
+                                        How To Pick A Winning Team</h2>
+                                    <p>
+                                        Without a Tout is a practical, no-nonsense guide to building models for team sports.</p>
+                                    <a class="btn btn-primary btn-lg" href="#withoutatout" role="button">Learn more</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="http://research-publishers.com/rp/images/wat_cover.gif" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ...
+            </div>
+            <!-- Controls
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">
+                    Previous</span> </a><a class="right carousel-control" href="#carousel-example-generic"
+                        role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+                        </span><span class="sr-only">Next</span> </a> -->
+        </div>
+        <div class="row" id="content-items" >
+                <div class="col-xs-4">
+                  <div style="text-align: center;" class="center-block">
+                    <span style="font-size: 6em;" class=" glyphicon glyphicon-print"> </span>
+                    <h3>
+                        Get Published</h3>
+                  </div>
+                    <div class="list-group">
+                        <a href="#theRPway" class="list-group-item">The RP Way</a> <a href="#OurStory" class="list-group-item">
+                            Our Story</a> <a href="#PublishingProcess" class="list-group-item">Publishing Process</a>
+                        <a href="#Artists" class="list-group-item">Information for Artists</a> <a href="#Authors"
+                            class="list-group-item">Information for Authors</a> <a href="#Researchers" class="list-group-item">
+                                Information for Researchers</a> <a href="#Publishers" class="list-group-item">Information
+                                    for Publishers</a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                  <div style="text-align: center;" class="center-block">
+                    <span style="font-size: 6em;" class="glyphicon glyphicon-book center-block"></span>
+                    <h3>
+                        Get Books</h3>
+                  </div>
+                    <div class="list-group">
+                        <a href="#withoutatout" class="list-group-item"><em>Without a Tout</em></a> <a href="#researchandinformationservices"
+                            class="list-group-item"><em>Research and Information Services</em></a> <a href="#gettingstartedwithconjointanalysis"
+                                class="list-group-item"><em>Getting Started with Conjoint Analysis</em></a>
+                        <a href="#qualitativeresearchonline" class="list-group-item"><em>Qualitative Research
+                            Online</em></a> <a href="#dataandtextprocessingforbusinessanalysis" class="list-group-item">
+                                <em>Data and Text Processing for Business Analysis</em></a> <a href="#order" class="list-group-item active">
+                                    Order Books</a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                  <div style="text-align: center;" class="center-block">
+                    <span style="font-size: 6em;" class="glyphicon glyphicon-search"></span>
+                    <h3>
+                      Get Research</h3></div>
+                    <div class="list-group">
+                        <a href="#CaseStudies" class="list-group-item">Case Studies</a> <a href="#researchservices"
+                            class="list-group-item">Research Services</a> <a href="#researchreports" class="list-group-item">
+                                Research Reports</a> <a href="#order" class="list-group-item active">Order Case Studies</a>
+                    </div>
+                </div>
+            </div>
+  </div>
+  
+  <article class="container" id="theRPway">
+            <div class="page-header">
+            <h1>
+              Publishing the RP Way</h1></div>
+            <p>
+                Research Publishers LLC (RP) publishes quality books and cases about business, economics,
+                and research methods, getting information from the people who have it to the people
+                who need it.
+            </p>
+            <p>
+                Our books are distributed internationally within trade paperback, textbook, and
+                technical book markets. Our focus is books about research methods, market and consumer
+                research, competitive intelligence, economics and industrial organization, consulting
+                services, and applications of information technology.</p>
+            <p>
+                Our cases are intended for education in business and economics, and concern research
+                as well as management issues. Most cases are accompanied by substantial data sets.
+                Students learn by working with cases and their data sets.
+            </p>
+            <p>
+                In addition to its publishing products, RP supports business and research professionals
+                by offering research and information services under the Help20 label.</p>
+            <p>
+                There are many advantages to publishing and research the RP way.
+            </p>
+</article>
+  <article class="container" id="OurStory">
+            <div class="page-header">
+            <h1>Our Story So Far</h1>
+            </div>
+            <p>Founded in 2002, Research Publishers LLC (RP) is a privately held firm that develops quality publications for business and research professionals. Based in Madison, Wisconsin, the firm has close relationships with educators and with business, research, and publishing professionals across the globe.</p><p>
+
+RP publishes books about research methods, market and consumer research, competitive intelligence, economics and industrial organization, consulting, research and information services, and applications of information technology. RP also publishes research cases. </p><p>
+
+RP works with authors who have strong research and technical backgrounds and excellent writing skills. RP is an advocate of creativity, freedom of expression, and intellectual property rights. The firm builds close relationships with authors and artists in the development and marketing of our publication products. These products are sold internationally within technical specialist, university textbook, and trade paperback markets.</p><p>Recently RP expanded its support of business and research professionals by offering research and information services under the Help20 name.</p>
+            
+          </article>
+  
+  <div class="container">
+    
+    
+    
+    
+  </div>
+  
+  
+  
+  
+  <div class="container-fluid footer">
+    <h5>Research Publishers, LLC 2016</h5>
+  </div>
+</body>
+</html>
