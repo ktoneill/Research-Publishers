@@ -1,31 +1,31 @@
-{books:
+{"books":
 	[
 		{
-			book: "withoutatout",
-			title: "Without A Tout",
-			subtitle: "How to Pick a Winning Team",
-			coverimage: "http://research-publishers.com/rp/images/wat_cover.gif",
-			description: "Without a Tout is a practical, no-nonsense guide to building models for team sports. Making predictive models accessible to the nontechnical reader, the book describes a class of handicapping methods based upon careful analysis of sports data and thorough testing of model performance.\r\nThere is recreational betting. This can be fun. There is betting out of necessity or perceived necessity, induced perhaps by poverty or addiction. This is sad. And there is rational betting, betting when it makes sense to do so. This is a test of wit. Without a Tout is about betting when it makes sense to do so, when the odds are in our favor.",
-			authors: [
+			"book": "withoutatout",
+			"title": "Without A Tout",
+			"subtitle": "How to Pick a Winning Team",
+			"coverimage": "http://research-publishers.com/rp/images/wat_cover.gif",
+			"description": "Without a Tout is a practical, no-nonsense guide to building models for team sports. Making predictive models accessible to the nontechnical reader, the book describes a class of handicapping methods based upon careful analysis of sports data and thorough testing of model performance.\r\nThere is recreational betting. This can be fun. There is betting out of necessity or perceived necessity, induced perhaps by poverty or addiction. This is sad. And there is rational betting, betting when it makes sense to do so. This is a test of wit. Without a Tout is about betting when it makes sense to do so, when the odds are in our favor.",
+			"authors": [
 						{ 
-							author: "miller",
-							name: "Tom Miller"
+							"author": "miller",
+							"name": "Tom Miller"
 						}
 					],
-			versions: [
+			"versions": [
 						{
-						version: "Print",
-						ISBN10: "0-9727297-8-X",
-						ISBN13: "978-0-9727297-8-9"
-						Pages: "",
-						Price: "$30.00"
+						"version": "Print",
+						"ISBN10": "0-9727297-8-X",
+						"ISBN13": "978-0-9727297-8-9"
+						"Pages": 0,
+						"Price": "$30.00"
 						},
 						{
-						version: "ebook",
-						ISBN10: "1--60147--200--5",
-						ISBN13: "978--1--60147--200--7"
-						Pages: "",
-						Price: "$24.00"
+						"version": "ebook",
+						"ISBN10": "1--60147--200--5",
+						"ISBN13": "978--1--60147--200--7"
+						"Pages": 0,
+						"Price": "$24.00"
 						}
 					]
 		}
