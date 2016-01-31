@@ -1,5 +1,5 @@
 {"books":
-	
+	[
 		{
 			"book": "withoutatout",
 			"title": "Without A Tout",
@@ -12,7 +12,7 @@
 							"name": "Tom Miller"
 						}
 					],
-			"versions": 
+			"versions": [
 						{
 						"version": "Print",
 						"ISBN10": "0-9727297-8-X",
@@ -27,7 +27,7 @@
 						"Pages": 0,
 						"Price": "$24.00"
 						}
-					
+					]
 		}
-	
+	]
 }
